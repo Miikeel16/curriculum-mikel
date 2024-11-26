@@ -1,0 +1,130 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img {
+    margin-right: 80px;
+} 
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: inherit;
+    padding: 7px;
+}
+
+nav a:hover{
+    background-color: lightskyblue;
+}
+
+#uno li {
+    margin: 0;
+}
+header {
+    border-bottom: 10px solid rgb(255, 255, 255); 
+    padding-bottom: 10px;
+    width: 100%;      
+    background-image: url(https://i.pinimg.com/originals/3f/14/c4/3f14c4421a628c3320da197bd6ce6e1e.jpg);
+    background-size: cover    
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-image: url(https://www.publicdomainpictures.net/pictures/230000/nahled/blue-textured-background-1505272752YVV.jpg);
+}
+.ftheader{
+    border-radius: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho de la ventana */
+    background-color: #232F3E;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0; /* Asegura que no haya margen */
+    margin-top: 2vw;
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+}
+
+p footer{
+    background-color: #555;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.tit{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+}
+.sobremi{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: solid black;
+    border-radius: 10px;
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 3em;
+    height: 59em;
+}
+.stz{
+    border: solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.imgstz{
+    border: solid black;
+    border-radius: 10px;
+}
+.titstz{
+    text-align: center;
+    background-color: white;
+    margin-left: 40%;
+    margin-right: 40%;  
+}
+.map{
+    border-radius: 10px;
+}

@@ -1,0 +1,168 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img {
+    margin-right: 80px;
+} 
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: inherit;
+    padding: 7px;
+}
+
+nav a:hover{
+    background-color: lightskyblue;
+}
+
+#uno li {
+    margin: 0;
+}
+header {
+    border-bottom: 10px solid rgb(255, 255, 255); 
+    padding-bottom: 10px;
+    width: 100%;      
+    background-image: url(https://i.pinimg.com/originals/3f/14/c4/3f14c4421a628c3320da197bd6ce6e1e.jpg);
+    background-size: cover    
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-image: url(https://www.publicdomainpictures.net/pictures/230000/nahled/blue-textured-background-1505272752YVV.jpg);
+}
+.ftheader{
+    border-radius: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho de la ventana */
+    background-color: #232F3E;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0; /* Asegura que no haya margen */
+    margin-top: 2vw;
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+}
+
+p footer{
+    background-color: #555;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.tit{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px; 
+}
+.meme{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+
+}
+
+.gif-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.gif-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.gif-container:hover img {
+    content: url("https://hips.hearstapps.com/hmg-prod/images/homer-meme-1547553537.gif"); /* Cambia al GIF animado */
+}
+
+
+.gif-container:nth-child(2):hover img {
+    content: url("https://media1.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif?cid=6c09b952ap9w866ud61f8zlet4ftpctyrqstsb1dm64uvq7s&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+
+.gif-container:nth-child(3):hover img {
+    content: url("https://www.icegif.com/wp-content/uploads/icegif-1617.gif");
+}
+
+
+.gif-container:nth-child(4):hover img {
+    content: url("https://www.icegif.com/wp-content/uploads/2022/01/icegif-982.gif");
+}
+
+.gif-container2 {
+    width: 30€;
+    height: 20€px; 
+    overflow: hidden;
+}
+
+.gif-container2 {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    margin-left: 10em;
+}
+
+.gif-container2:hover{
+    content: url('https://media.tenor.com/kHcmsxlKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif');
+}
